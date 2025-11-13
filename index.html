@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Colégio Professores</title>
+</head>
+<body>
+    <h1>Interface Painel</h1>
+
+    <form action="">
+
+        <div class="texto">
+            <label for="message">Texto:</label><br>
+            <textarea id="message" name="message" rows="1" cols="50"></textarea><br>
+            <input type="submit" value="Send Message">
+        </div>
+        
+        <div class="cores">
+            <p>Cor:</p>
+
+            <input type="range" name="cor-painel-r" id="cor-painel-r" min="0" max="255">
+            <label for="cor-painel-r">Vermelho</label>
+
+            <input type="range" name="cor-painel-g" id="cor-painel-g" min="0" max="255">
+            <label for="cor-painel-g">Verde</label>
+
+            <input type="range" name="cor-painel-b" id="cor-painel-b" min="0" max="255">
+            <label for="cor-painel-b">Azul</label>
+        </div>
+
+        <div class="scroll">
+            <p>Rolagem:</p>
+
+            <input type="radio" name="roll-off" id="roll-off">
+            <label for="roll-off">Estático</label>
+
+            <label for="roll-velocidade">Verde</label>
+            <input type="range" name="roll-velocidade" id="cor-painel-g" min="1" max="30">
+            
+
+            <input type="radio" name="roll-on" id="roll-on">
+            <label for="roll-on">Rolar</label>
+
+            
+        </div>
+        
+    </form>
+</body>
+</html>
