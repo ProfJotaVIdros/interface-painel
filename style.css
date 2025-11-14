@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+}
+
 h1 {
     text-align: center;
     background-color: #222;
@@ -11,19 +15,12 @@ h1 {
     padding: 10px;
 }
 
-form {
-    display: flex;
-    margin: 0 10vw;
-    flex-direction: column;
-}
-
-.texto {
-    margin-top: 20px;
-}
-
-.cores {
+.input-text-container {
     display: flex;
     flex-direction: column;
-    margin-top: 29px;
-    width: 80vw;
+    margin: 20px;
+}
+
+.input-text-container > * {
+    margin: 10px 0;
 }
